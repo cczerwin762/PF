@@ -1,7 +1,8 @@
 import numpy as np 
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import pandas as pd 
 
-x = np.dataframe
+cols = {"fcurPrice","fShares","fMarketCap","fPE","fEPS",
+"fLCFC","fExcCap","fDebt","fEV","f1yrROI","dBuy"}
 
 
