@@ -17,7 +17,7 @@ for i in range(0,len(result)):
     soup = BeautifulSoup(response.content, 'html.parser')
     match attr:
         case 'href':
-            for tag in soup.find_all(href=re.compile("/symbols/NASDAQ")):
+            for tag in soup.find_all(href=re.compile(filt)):
                 tickers.append(tag.text)
         case _:
             print('invalid attribute')
