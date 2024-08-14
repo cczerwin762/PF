@@ -1,12 +1,13 @@
-# import yfinance as yf
+import yfinance as yf
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
+import numpy as np
 #from Helper import *
 import re
+
 #Stage - Scrape data from Urls in urls.csv
-df = pd.DataFrame()
 result = pd.read_csv('Urls.csv')
 tickers = []
 for i in range(0,len(result)):
@@ -22,14 +23,19 @@ for i in range(0,len(result)):
         case _:
             print('invalid attribute')
 
-print(tickers)
+#print(tickers)
 
-
-#Stage - Pick out tickers
-#movers = [] #top movers for the day
-#
+#Stage - Remove duplicate tickers
+if len(result)>1:
+    #logic to remove duplicates
+    print('Duplicates removed')
 
 #Stage - Analyze each ticker
+
+#--Valuation Method 1 - Peter Lynch
+d = {'Ticker': tickers, 'EPSGrowth' : np.linspace(0,len(tickers)-1,len(tickers)), 'DivYield':np.linspace(0,len(tickers)-1,len(tickers)), 'P/E':np.linspace(0,len(tickers)-1,len(tickers)),'FoS':np.linspace(0,len(tickers)-1,len(tickers))}
+df = pd.DataFrame(data=d)
+#print(df)
 
 #Next step set threshold and determine/ buy no buy
 
