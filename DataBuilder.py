@@ -33,9 +33,27 @@ if len(result)>1:
 #Stage - Analyze each ticker
 
 #--Valuation Method 1 - Peter Lynch
-d = {'Ticker': tickers, 'EPSGrowth' : np.linspace(0,len(tickers)-1,len(tickers)), 'DivYield':np.linspace(0,len(tickers)-1,len(tickers)), 'P/E':np.linspace(0,len(tickers)-1,len(tickers)),'FoS':np.linspace(0,len(tickers)-1,len(tickers))}
+EPSGrowth = []
+DivYield = []
+PE = []
+FoS = []
+for i in range(0,len(tickers)):
+    print(tickers[i])
+    stock = yf.Ticker(tickers[i])
+    dict = stock.info
+    tempDf = pd.DataFrame.from_dict(dict,orient='index')
+    tempDf = tempDf.reset_index()
+    EPSGrowth.append(tempDf[0][tempDf['index'] == 'forwardEps'].values[0])
+d = {'Ticker': tickers, 'EPSGrowth' : EPSGrowth, 'DivYield':np.linspace(0,len(tickers)-1,len(tickers)), 'P/E':np.linspace(0,len(tickers)-1,len(tickers)),'FoS':np.linspace(0,len(tickers)-1,len(tickers))}
 df = pd.DataFrame(data=d)
-#print(df)
+print(df)
+# microsoft = yf.Ticker('MSFT')
+# dict =  microsoft.info
+# dfi = pd.DataFrame.from_dict(dict,orient='index')
+# dfi = dfi.reset_index()
+# test = []
+# test.append(dfi[0][dfi['index'] == 'forwardEps'].values[0])
+# print(test)
 
 #Next step set threshold and determine/ buy no buy
 
