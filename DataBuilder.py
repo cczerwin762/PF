@@ -33,18 +33,42 @@ if len(result)>1:
 #Stage - Analyze each ticker
 
 #--Valuation Method 1 - Peter Lynch
+incomplete = [] #array to store indices of incomplete tickers to be removed later
 EPSGrowth = []
 DivYield = []
 PE = []
 FoS = []
 for i in range(0,len(tickers)):
-    print(tickers[i])
+    print(tickers[i] + '\n')
     stock = yf.Ticker(tickers[i])
     dict = stock.info
     tempDf = pd.DataFrame.from_dict(dict,orient='index')
     tempDf = tempDf.reset_index()
-    EPSGrowth.append(tempDf[0][tempDf['index'] == 'forwardEps'].values[0])
-d = {'Ticker': tickers, 'EPSGrowth' : EPSGrowth, 'DivYield':np.linspace(0,len(tickers)-1,len(tickers)), 'P/E':np.linspace(0,len(tickers)-1,len(tickers)),'FoS':np.linspace(0,len(tickers)-1,len(tickers))}
+    EPSG = 0
+    DY = 0
+    P = 1
+    try:
+        EPSG = tempDf[0][tempDf['index'] == 'forwardEps'].values[0]
+        DY = tempDf[0][tempDf['index'] == 'fiveYearAvgDividendYield'].values[0]
+        P = tempDf[0][tempDf['index'] == 'forwardPE'].values[0]
+    except:
+        print(tickers[i] + ' had incomplete data\n')
+        incomplete.append(i)
+    EPSGrowth.append(EPSG)
+    DivYield.append(DY)
+    PE.append(P)
+    FoS.append((EPSG+DY)/P)
+print('\n-----------------------------------------------------------\n')
+print(str(len(incomplete)) + ' out of ' + str(len(tickers)) + ' tickers being deleted.')
+for i in range(0,len(incomplete)):
+    print("Removing: " + tickers[incomplete[i]-i]+ '\n')
+    del tickers[incomplete[i]-i] # -i b/c index will continuously decrease by 1 as we move through the list
+    del EPSGrowth[incomplete[i]-i]
+    del DivYield[incomplete[i]-i]
+    del PE[incomplete[i]-i]
+    del FoS[incomplete[i]-i]
+print('\n-----------------------------------------------------------\n')
+d = {'Ticker': tickers, 'EPSGrowth' : EPSGrowth, 'DivYield':DivYield, 'P/E':PE,'FoS':FoS}
 df = pd.DataFrame(data=d)
 print(df)
 # microsoft = yf.Ticker('MSFT')
