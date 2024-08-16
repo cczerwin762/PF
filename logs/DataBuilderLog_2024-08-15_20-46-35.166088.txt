@@ -1,0 +1,243 @@
+DataBuilder.py log data for: 2024-08-15 20:46:35.166088
+CING
+CING had incomplete data
+PRTG
+PRTG had incomplete data
+DSY
+DSY had incomplete data
+ARAY
+ARAY had incomplete data
+ASTS
+ASTS had incomplete data
+UBXG
+UBXG had incomplete data
+SIDU
+SIDU had incomplete data
+SWIN
+SWIN had incomplete data
+LFWD
+LFWD had incomplete data
+TLS
+TLS had incomplete data
+GAMB
+GAMB had incomplete data
+ICU
+ICU had incomplete data
+GCTK
+GCTK had incomplete data
+SAVA
+SAVA had incomplete data
+CDZI
+CDZI had incomplete data
+BRLS
+BRLS had incomplete data
+VIGL
+VIGL had incomplete data
+AILE
+AILE had incomplete data
+EVLV
+EVLV had incomplete data
+VERI
+VERI had incomplete data
+GAUZ
+GAUZ had incomplete data
+GDC
+GDC had incomplete data
+LITE
+LITE had incomplete data
+TXG
+TXG had incomplete data
+ZVSA
+ZVSA had incomplete data
+PSNL
+PSNL had incomplete data
+KRRO
+KRRO had incomplete data
+PHVS
+PHVS had incomplete data
+PLSE
+PLSE had incomplete data
+AISP
+AISP had incomplete data
+LIQT
+LIQT had incomplete data
+GBIO
+GBIO had incomplete data
+FEBO
+FEBO had incomplete data
+LUNR
+LUNR had incomplete data
+AGEN
+AGEN had incomplete data
+RMBL
+RMBL had incomplete data
+NKLA
+NKLA had incomplete data
+WOOF
+WOOF had incomplete data
+RKLB
+RKLB had incomplete data
+STRO
+STRO had incomplete data
+MXL
+MXL had incomplete data
+SMID
+SMID had incomplete data
+BOLD
+BOLD had incomplete data
+ADPT
+ADPT had incomplete data
+DCGO
+DCGO had incomplete data
+SKYE
+SKYE had incomplete data
+DTI
+DTI had incomplete data
+BCDA
+BCDA had incomplete data
+ALDX
+ALDX had incomplete data
+GRPN
+GRPN had incomplete data
+PRLD
+PRLD had incomplete data
+SGMT
+SGMT had incomplete data
+BFRG
+BFRG had incomplete data
+EWCZ
+EWCZ had incomplete data
+FTEL
+FTEL had incomplete data
+ALGT
+PTON
+PTON had incomplete data
+ALAB
+ALAB had incomplete data
+KRUS
+KRUS had incomplete data
+ULTA
+ULTA had incomplete data
+ABSI
+ABSI had incomplete data
+CVGI
+CVGI had incomplete data
+ATXS
+ATXS had incomplete data
+RENT
+RENT had incomplete data
+AXTI
+AXTI had incomplete data
+ESCA
+FHTX
+FHTX had incomplete data
+EWTX
+EWTX had incomplete data
+ZNTL
+ZNTL had incomplete data
+CRNC
+CRNC had incomplete data
+RNAC
+RNAC had incomplete data
+HA
+HA had incomplete data
+CLPT
+CLPT had incomplete data
+KINS
+FIVE
+FIVE had incomplete data
+GENK
+GENK had incomplete data
+CRML
+CRML had incomplete data
+TEM
+TEM had incomplete data
+MGTX
+MGTX had incomplete data
+GSIT
+GSIT had incomplete data
+
+-----------------------------------------------------------
+77 out of 80 tickers being deleted.Removing: CING
+Removing: PRTG
+Removing: DSY
+Removing: ARAY
+Removing: ASTS
+Removing: UBXG
+Removing: SIDU
+Removing: SWIN
+Removing: LFWD
+Removing: TLS
+Removing: GAMB
+Removing: ICU
+Removing: GCTK
+Removing: SAVA
+Removing: CDZI
+Removing: BRLS
+Removing: VIGL
+Removing: AILE
+Removing: EVLV
+Removing: VERI
+Removing: GAUZ
+Removing: GDC
+Removing: LITE
+Removing: TXG
+Removing: ZVSA
+Removing: PSNL
+Removing: KRRO
+Removing: PHVS
+Removing: PLSE
+Removing: AISP
+Removing: LIQT
+Removing: GBIO
+Removing: FEBO
+Removing: LUNR
+Removing: AGEN
+Removing: RMBL
+Removing: NKLA
+Removing: WOOF
+Removing: RKLB
+Removing: STRO
+Removing: MXL
+Removing: SMID
+Removing: BOLD
+Removing: ADPT
+Removing: DCGO
+Removing: SKYE
+Removing: DTI
+Removing: BCDA
+Removing: ALDX
+Removing: GRPN
+Removing: PRLD
+Removing: SGMT
+Removing: BFRG
+Removing: EWCZ
+Removing: FTEL
+Removing: PTON
+Removing: ALAB
+Removing: KRUS
+Removing: ULTA
+Removing: ABSI
+Removing: CVGI
+Removing: ATXS
+Removing: RENT
+Removing: AXTI
+Removing: FHTX
+Removing: EWTX
+Removing: ZNTL
+Removing: CRNC
+Removing: RNAC
+Removing: HA
+Removing: CLPT
+Removing: FIVE
+Removing: GENK
+Removing: CRML
+Removing: TEM
+Removing: MGTX
+Removing: GSIT
+
+-----------------------------------------------------------
+  Ticker  EPSGrowth  DivYield       P/E       FoS
+0   ALGT       5.60      1.79  7.237500  1.021071
+1   ESCA       1.96      4.07  7.107143  0.848442
+2   KINS       0.98      4.24  9.367347  0.557255
