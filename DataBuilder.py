@@ -51,12 +51,15 @@ for i in range(0,len(tickers)):
     EPSG = 0
     DY = 0
     P = 1
+    err = 'ESPG'
     try:
         EPSG = tempDf[0][tempDf['index'] == 'forwardEps'].values[0]
+        err = 'DY'
         DY = tempDf[0][tempDf['index'] == 'fiveYearAvgDividendYield'].values[0]
+        err = 'PE'
         P = tempDf[0][tempDf['index'] == 'forwardPE'].values[0]
     except:
-        f.write(tickers[i] + ' had incomplete data\n')
+        f.write(tickers[i] + ' had incomplete ' + err + ' data\n')
         incomplete.append(i)
     EPSGrowth.append(EPSG)
     DivYield.append(DY)
@@ -75,14 +78,6 @@ f.write('\n-----------------------------------------------------------\n')
 d = {'Ticker': tickers, 'EPSGrowth' : EPSGrowth, 'DivYield':DivYield, 'P/E':PE,'FoS':FoS}
 df = pd.DataFrame(data=d)
 f.write(df.to_string())
-
-# microsoft = yf.Ticker('MSFT')
-# dict =  microsoft.info
-# dfi = pd.DataFrame.from_dict(dict,orient='index')
-# dfi = dfi.reset_index()
-# test = []
-# test.append(dfi[0][dfi['index'] == 'forwardEps'].values[0])
-# print(test)
 
 #Next step set threshold and determine/ buy no buy
 

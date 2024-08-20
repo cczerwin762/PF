@@ -1,0 +1,247 @@
+DataBuilder.py log data for: 2024-08-19 20:38:05.868031
+ALZN
+ALZN had incomplete DY data
+VRAX
+VRAX had incomplete DY data
+SOND
+SOND had incomplete DY data
+TELO
+TELO had incomplete ESPG data
+SIDU
+SIDU had incomplete DY data
+DSY
+DSY had incomplete ESPG data
+SNGX
+SNGX had incomplete DY data
+HPAI
+HPAI had incomplete ESPG data
+YOSH
+YOSH had incomplete ESPG data
+ALTS
+ALTS had incomplete ESPG data
+NNE
+NNE had incomplete ESPG data
+MSAI
+MSAI had incomplete DY data
+VCSA
+VCSA had incomplete DY data
+ASTS
+ASTS had incomplete DY data
+BRID
+BRID had incomplete ESPG data
+TRVN
+TRVN had incomplete DY data
+ABIO
+ABIO had incomplete DY data
+FHTX
+FHTX had incomplete DY data
+BCDA
+BCDA had incomplete DY data
+ORKT
+ORKT had incomplete ESPG data
+BIVI
+BIVI had incomplete DY data
+HAO
+HAO had incomplete ESPG data
+KINS
+PRPH
+PRPH had incomplete DY data
+VKTX
+VKTX had incomplete DY data
+RDFN
+RDFN had incomplete DY data
+ATHA
+ATHA had incomplete DY data
+GOGO
+GOGO had incomplete DY data
+ATXI
+ATXI had incomplete DY data
+IVP
+IVP had incomplete ESPG data
+ALT
+ALT had incomplete DY data
+ONCT
+ONCT had incomplete DY data
+NUTX
+NUTX had incomplete DY data
+RAIL
+SLXN
+SLXN had incomplete ESPG data
+ALLO
+ALLO had incomplete DY data
+RLMD
+RLMD had incomplete DY data
+ASTI
+ASTI had incomplete ESPG data
+COCP
+COCP had incomplete DY data
+XBIO
+XBIO had incomplete DY data
+APPS
+APPS had incomplete DY data
+VTVT
+VTVT had incomplete DY data
+PLL
+PLL had incomplete DY data
+BSLK
+BSLK had incomplete ESPG data
+GCTK
+GCTK had incomplete ESPG data
+TGTX
+TGTX had incomplete DY data
+YYAI
+YYAI had incomplete ESPG data
+GUTS
+GUTS had incomplete DY data
+ALRN
+ALRN had incomplete DY data
+TROO
+TROO had incomplete ESPG data
+SABS
+SABS had incomplete DY data
+CRNC
+CRNC had incomplete DY data
+KOSS
+KOSS had incomplete ESPG data
+TEM
+TEM had incomplete DY data
+SYM
+SYM had incomplete DY data
+POET
+POET had incomplete DY data
+EVTV
+EVTV had incomplete ESPG data
+RMTI
+RMTI had incomplete DY data
+PRLD
+PRLD had incomplete DY data
+GIPR
+GIPR had incomplete DY data
+CLOV
+CLOV had incomplete DY data
+RLAY
+RLAY had incomplete DY data
+SMX
+SMX had incomplete ESPG data
+SHIM
+SHIM had incomplete DY data
+MGX
+MGX had incomplete DY data
+VVOS
+VVOS had incomplete DY data
+LION
+LION had incomplete ESPG data
+IDN
+IDN had incomplete DY data
+ELUT
+ELUT had incomplete DY data
+KRNT
+KRNT had incomplete DY data
+VERV
+VERV had incomplete DY data
+APGE
+APGE had incomplete DY data
+NISN
+NISN had incomplete ESPG data
+TERN
+TERN had incomplete DY data
+ZVSA
+ZVSA had incomplete DY data
+IRWD
+IRWD had incomplete DY data
+BDTX
+BDTX had incomplete DY data
+ABOS
+ABOS had incomplete DY data
+IMMX
+IMMX had incomplete DY data
+INVE
+INVE had incomplete DY data
+PITA
+PITA had incomplete ESPG data
+
+-----------------------------------------------------------
+79 out of 81 tickers being deleted.Removing: ALZN
+Removing: VRAX
+Removing: SOND
+Removing: TELO
+Removing: SIDU
+Removing: DSY
+Removing: SNGX
+Removing: HPAI
+Removing: YOSH
+Removing: ALTS
+Removing: NNE
+Removing: MSAI
+Removing: VCSA
+Removing: ASTS
+Removing: BRID
+Removing: TRVN
+Removing: ABIO
+Removing: FHTX
+Removing: BCDA
+Removing: ORKT
+Removing: BIVI
+Removing: HAO
+Removing: PRPH
+Removing: VKTX
+Removing: RDFN
+Removing: ATHA
+Removing: GOGO
+Removing: ATXI
+Removing: IVP
+Removing: ALT
+Removing: ONCT
+Removing: NUTX
+Removing: SLXN
+Removing: ALLO
+Removing: RLMD
+Removing: ASTI
+Removing: COCP
+Removing: XBIO
+Removing: APPS
+Removing: VTVT
+Removing: PLL
+Removing: BSLK
+Removing: GCTK
+Removing: TGTX
+Removing: YYAI
+Removing: GUTS
+Removing: ALRN
+Removing: TROO
+Removing: SABS
+Removing: CRNC
+Removing: KOSS
+Removing: TEM
+Removing: SYM
+Removing: POET
+Removing: EVTV
+Removing: RMTI
+Removing: PRLD
+Removing: GIPR
+Removing: CLOV
+Removing: RLAY
+Removing: SMX
+Removing: SHIM
+Removing: MGX
+Removing: VVOS
+Removing: LION
+Removing: IDN
+Removing: ELUT
+Removing: KRNT
+Removing: VERV
+Removing: APGE
+Removing: NISN
+Removing: TERN
+Removing: ZVSA
+Removing: IRWD
+Removing: BDTX
+Removing: ABOS
+Removing: IMMX
+Removing: INVE
+Removing: PITA
+
+-----------------------------------------------------------
+  Ticker  EPSGrowth  DivYield        P/E       FoS
+0   KINS       1.20      4.24   9.933333  0.547651
+1   RAIL       0.43      1.62  13.686047  0.149788
