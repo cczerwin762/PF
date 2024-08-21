@@ -51,15 +51,27 @@ for i in range(0,len(tickers)):
     EPSG = 0
     DY = 0
     P = 1
-    err = 'ESPG'
-    try:
-        EPSG = tempDf[0][tempDf['index'] == 'forwardEps'].values[0]
-        err = 'DY'
-        DY = tempDf[0][tempDf['index'] == 'fiveYearAvgDividendYield'].values[0]
-        err = 'PE'
+    missing = ''
+    #Dividend Yield
+    if not(tempDf[0][tempDf['index'] == 'dividendYield'].empty):
+        DY = tempDf[0][tempDf['index'] == 'dividendYield'].values[0]*100
+    else:
+        missing = 'DY'
+    #P/E Ratio
+    if missing == '' and not(tempDf[0][tempDf['index'] == 'forwardPE'].empty):
         P = tempDf[0][tempDf['index'] == 'forwardPE'].values[0]
-    except:
-        f.write(tickers[i] + ' had incomplete ' + err + ' data\n')
+    elif missing == '': 
+        missing = missing + 'PE'
+    #Earnings per share growth
+    if missing == '' and not(tempDf[0][tempDf['index'] == 'earningsGrowth'].empty):
+        EPSG = tempDf[0][tempDf['index'] == 'earningsGrowth'].values[0]*100
+    elif missing == '' and not(tempDf[0][tempDf['index'] == 'pegRatio'].empty) :
+        EPSG = P/(tempDf[0][tempDf['index'] == 'pegRatio'].values[0])
+    elif missing == '': 
+        missing = missing + 'EPSG'
+
+    if missing != '':
+        f.write(tickers[i] + ' had incomplete ' + missing + ' data\n')
         incomplete.append(i)
     EPSGrowth.append(EPSG)
     DivYield.append(DY)
