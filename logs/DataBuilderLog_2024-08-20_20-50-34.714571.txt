@@ -1,0 +1,232 @@
+DataBuilder.py log data for: 2024-08-20 20:50:34.714571
+TTNP
+TTNP had incomplete EPSG data
+GTI
+GTI had incomplete PE data
+BYU
+BYU had incomplete PE data
+TCRT
+TCRT had incomplete EPSG data
+LUNR
+PITA
+PITA had incomplete PE data
+NEON
+NEON had incomplete EPSG data
+TLS
+TLS had incomplete EPSG data
+UBXG
+UBXG had incomplete PE data
+GSUN
+GSUN had incomplete PE data
+BTBT
+BTBT had incomplete EPSG data
+GLUE
+GLUE had incomplete EPSG data
+CVKD
+CVKD had incomplete EPSG data
+NB
+NB had incomplete EPSG data
+ASTI
+ASTI had incomplete PE data
+VVOS
+VVOS had incomplete EPSG data
+NUTX
+NUTX had incomplete EPSG data
+EZFL
+EZFL had incomplete EPSG data
+AEHL
+AEHL had incomplete PE data
+LPTX
+RELI
+RELI had incomplete EPSG data
+PRPO
+PRPO had incomplete EPSG data
+ALRN
+HA
+VVPR
+VVPR had incomplete EPSG data
+REE
+REE had incomplete EPSG data
+MCVT
+MCVT had incomplete PE data
+NISN
+NISN had incomplete PE data
+ITOS
+ITOS had incomplete EPSG data
+CRNC
+COMM
+KOSS
+KOSS had incomplete PE data
+TACT
+GXAI
+GXAI had incomplete PE data
+TNFA
+TNFA had incomplete PE data
+WULF
+WULF had incomplete EPSG data
+SLRN
+SLRN had incomplete EPSG data
+COCH
+COCH had incomplete EPSG data
+ACRV
+ACRV had incomplete EPSG data
+MGRM
+MGRM had incomplete EPSG data
+XBIO
+XBIO had incomplete EPSG data
+RCRT
+RCRT had incomplete EPSG data
+YMAB
+ESOA
+OMEX
+OMEX had incomplete EPSG data
+OLB
+OLB had incomplete EPSG data
+MNTX
+GHRS
+GHRS had incomplete EPSG data
+SKYE
+SKYE had incomplete EPSG data
+SGMT
+SGMT had incomplete EPSG data
+CDLX
+ZVRA
+ZVRA had incomplete EPSG data
+PANW
+DSY
+DSY had incomplete PE data
+MBRX
+MBRX had incomplete EPSG data
+QMMM
+QMMM had incomplete PE data
+CYCN
+CYCN had incomplete EPSG data
+SIRI
+RAPT
+RAPT had incomplete EPSG data
+TLF
+WBTN
+WBTN had incomplete EPSG data
+IMNM
+IMNM had incomplete EPSG data
+RECT
+RECT had incomplete PE data
+SLRX
+SLRX had incomplete EPSG data
+LITE
+KYTX
+KYTX had incomplete EPSG data
+STRR
+GUTS
+GUTS had incomplete EPSG data
+TIL
+TIL had incomplete EPSG data
+SOPH
+SOPH had incomplete EPSG data
+EBON
+EBON had incomplete PE data
+DSGN
+DSGN had incomplete EPSG data
+GIPR
+GIPR had incomplete EPSG data
+RSTN
+RSTN had incomplete PE data
+NVCT
+NVCT had incomplete EPSG data
+EWCZ
+SNFCA
+SNFCA had incomplete PE data
+BEEM
+BEEM had incomplete EPSG data
+SNPX
+SNPX had incomplete EPSG data
+PRE
+PRE had incomplete EPSG data
+LCFY
+LCFY had incomplete PE data
+
+-----------------------------------------------------------
+64 out of 81 tickers being deleted.Removing: TTNP
+Removing: GTI
+Removing: BYU
+Removing: TCRT
+Removing: PITA
+Removing: NEON
+Removing: TLS
+Removing: UBXG
+Removing: GSUN
+Removing: BTBT
+Removing: GLUE
+Removing: CVKD
+Removing: NB
+Removing: ASTI
+Removing: VVOS
+Removing: NUTX
+Removing: EZFL
+Removing: AEHL
+Removing: RELI
+Removing: PRPO
+Removing: VVPR
+Removing: REE
+Removing: MCVT
+Removing: NISN
+Removing: ITOS
+Removing: KOSS
+Removing: GXAI
+Removing: TNFA
+Removing: WULF
+Removing: SLRN
+Removing: COCH
+Removing: ACRV
+Removing: MGRM
+Removing: XBIO
+Removing: RCRT
+Removing: OMEX
+Removing: OLB
+Removing: GHRS
+Removing: SKYE
+Removing: SGMT
+Removing: ZVRA
+Removing: DSY
+Removing: MBRX
+Removing: QMMM
+Removing: CYCN
+Removing: RAPT
+Removing: WBTN
+Removing: IMNM
+Removing: RECT
+Removing: SLRX
+Removing: KYTX
+Removing: GUTS
+Removing: TIL
+Removing: SOPH
+Removing: EBON
+Removing: DSGN
+Removing: GIPR
+Removing: RSTN
+Removing: NVCT
+Removing: SNFCA
+Removing: BEEM
+Removing: SNPX
+Removing: PRE
+Removing: LCFY
+
+-----------------------------------------------------------
+   Ticker   EPSGrowth  DivYield         P/E        FoS
+9    MNTX  250.100000       0.0    5.956522  41.987589
+8    ESOA  413.900000       0.6   25.093023  16.518536
+5    COMM   21.593700       0.0    4.102803   5.263158
+14   LITE   27.033930       0.0   15.409340   1.754386
+11   PANW   59.000000       0.0   51.542020   1.144697
+16   EWCZ   13.800000       0.0   14.441860   0.955556
+12   SIRI    3.761574       3.5   10.156250   0.714986
+0    LUNR    0.000000       0.0  113.400000   0.000000
+1    LPTX    0.000000       0.0   -2.336000  -0.000000
+7    YMAB    0.000000       0.0  -26.490196  -0.000000
+6    TACT  160.064935       0.0 -123.250000   0.000000
+3      HA    0.000000       0.0   -4.640420  -0.000000
+4    CRNC    0.000000       0.0  -20.411764  -0.000000
+2    ALRN    3.644094       0.0   -1.348315   0.000000
+10   CDLX   90.497738       0.0  -11.764706   0.000000
+13    TLF    0.000000       0.0    7.396552   0.000000
+15   STRR   40.339895       0.0   -5.244186   0.000000

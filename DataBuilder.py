@@ -55,28 +55,27 @@ for i in range(0,len(tickers)):
     #Dividend Yield
     if not(tempDf[0][tempDf['index'] == 'dividendYield'].empty):
         DY = tempDf[0][tempDf['index'] == 'dividendYield'].values[0]*100
-    else:
-        missing = 'DY'
     #P/E Ratio
-    if missing == '' and not(tempDf[0][tempDf['index'] == 'forwardPE'].empty):
+    if not(tempDf[0][tempDf['index'] == 'forwardPE'].empty):
         P = tempDf[0][tempDf['index'] == 'forwardPE'].values[0]
     elif missing == '': 
-        missing = missing + 'PE'
+        missing = 'PE'
     #Earnings per share growth
     if missing == '' and not(tempDf[0][tempDf['index'] == 'earningsGrowth'].empty):
         EPSG = tempDf[0][tempDf['index'] == 'earningsGrowth'].values[0]*100
     elif missing == '' and not(tempDf[0][tempDf['index'] == 'pegRatio'].empty) :
         EPSG = P/(tempDf[0][tempDf['index'] == 'pegRatio'].values[0])
     elif missing == '': 
-        missing = missing + 'EPSG'
+        missing = 'EPSG'
 
-    if missing != '':
+    if missing != '' :
         f.write(tickers[i] + ' had incomplete ' + missing + ' data\n')
         incomplete.append(i)
+    EPSG = max(EPSG,0)
     EPSGrowth.append(EPSG)
     DivYield.append(DY)
     PE.append(P)
-    FoS.append((EPSG+DY)/P)
+    FoS.append(max((EPSG+DY)/P,0))
 f.write('\n-----------------------------------------------------------\n')
 f.write(str(len(incomplete)) + ' out of ' + str(len(tickers)) + ' tickers being deleted.')
 for i in range(0,len(incomplete)):
@@ -89,7 +88,7 @@ for i in range(0,len(incomplete)):
 f.write('\n-----------------------------------------------------------\n')
 d = {'Ticker': tickers, 'EPSGrowth' : EPSGrowth, 'DivYield':DivYield, 'P/E':PE,'FoS':FoS}
 df = pd.DataFrame(data=d)
-f.write(df.to_string())
+f.write(df.sort_values(by=['FoS'],ascending=False).to_string())
 
 #Next step set threshold and determine/ buy no buy
 
