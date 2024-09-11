@@ -88,7 +88,8 @@ for i in range(0,len(incomplete)):
 f.write('\n-----------------------------------------------------------\n')
 d = {'Ticker': tickers, 'EPSGrowth' : EPSGrowth, 'DivYield':DivYield, 'P/E':PE,'FoS':FoS}
 df = pd.DataFrame(data=d)
-f.write(df.sort_values(by=['FoS'],ascending=False).to_string())
+plusFosDf = df[df['FoS'] > 0.05]
+f.write(plusFosDf.sort_values(by=['FoS'],ascending=False).to_string())
 
 #Next step set threshold and determine/ buy no buy
 

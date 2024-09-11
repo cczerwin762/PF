@@ -1,0 +1,222 @@
+DataBuilder.py log data for: 2024-09-10 21:05:08.402230
+SIRI
+BKYI
+BKYI had incomplete EPSG data
+TRVN
+TRVN had incomplete EPSG data
+FBLG
+FBLG had incomplete EPSG data
+SMX
+SMX had incomplete PE data
+LASE
+LASE had incomplete PE data
+VRDN
+VRDN had incomplete EPSG data
+TERN
+TERN had incomplete EPSG data
+AVO
+AERT
+AERT had incomplete PE data
+KRNT
+SMMT
+SMMT had incomplete EPSG data
+NNE
+NNE had incomplete PE data
+IRBT
+SGMT
+SGMT had incomplete EPSG data
+CDMO
+BAER
+BAER had incomplete PE data
+DSGN
+DSGN had incomplete EPSG data
+SDST
+SDST had incomplete EPSG data
+MTRX
+HAO
+HAO had incomplete PE data
+AIRJ
+AIRJ had incomplete PE data
+GBIO
+GBIO had incomplete EPSG data
+IZEA
+ALLO
+AMSC
+CRVS
+CRVS had incomplete EPSG data
+CCCC
+QMMM
+QMMM had incomplete PE data
+RNAC
+RNAC had incomplete EPSG data
+AUR
+AUR had incomplete EPSG data
+SNTG
+SNTG had incomplete PE data
+BMR
+BMR had incomplete PE data
+LFVN
+EOSE
+EOSE had incomplete EPSG data
+AURA
+AURA had incomplete EPSG data
+BHIL
+BHIL had incomplete EPSG data
+DOGZ
+DOGZ had incomplete PE data
+EPIX
+EPIX had incomplete EPSG data
+TIL
+TIL had incomplete EPSG data
+EUDA
+EUDA had incomplete PE data
+CRMD
+CRMD had incomplete EPSG data
+VREX
+CVGW
+PRTG
+PRTG had incomplete EPSG data
+DSY
+DSY had incomplete PE data
+FATE
+ORKT
+ORKT had incomplete PE data
+BCG
+BCG had incomplete PE data
+COMM
+BMEA
+BMEA had incomplete EPSG data
+NKTX
+NKTX had incomplete EPSG data
+SKYE
+SKYE had incomplete EPSG data
+AKYA
+AKYA had incomplete EPSG data
+QMCO
+CASI
+CASI had incomplete EPSG data
+ADN
+ADN had incomplete EPSG data
+RCAT
+RCAT had incomplete EPSG data
+IGMS
+IGMS had incomplete EPSG data
+BTDR
+BTDR had incomplete EPSG data
+ALEC
+CDTG
+CDTG had incomplete PE data
+CBUS
+CBUS had incomplete EPSG data
+TWST
+GV
+GV had incomplete PE data
+ALT
+ALT had incomplete EPSG data
+MARA
+LUNG
+MIND
+INMD
+GSUN
+GSUN had incomplete PE data
+JANX
+TCX
+TCX had incomplete EPSG data
+VSTM
+ENVX
+ENVX had incomplete EPSG data
+PRME
+PRME had incomplete EPSG data
+ACRV
+ACRV had incomplete EPSG data
+WISA
+WISA had incomplete EPSG data
+GH
+NCPL
+NCPL had incomplete EPSG data
+MRIN
+MRIN had incomplete EPSG data
+PRLD
+PSNL
+NGNE
+GTEC
+ZNTL
+ZNTL had incomplete EPSG data
+BIVI
+BIVI had incomplete EPSG data
+PHVS
+WOOF
+VCSA
+ABCL
+
+-----------------------------------------------------------
+58 out of 91 tickers being deleted.Removing: BKYI
+Removing: TRVN
+Removing: FBLG
+Removing: SMX
+Removing: LASE
+Removing: VRDN
+Removing: TERN
+Removing: AERT
+Removing: SMMT
+Removing: NNE
+Removing: SGMT
+Removing: BAER
+Removing: DSGN
+Removing: SDST
+Removing: HAO
+Removing: AIRJ
+Removing: GBIO
+Removing: CRVS
+Removing: QMMM
+Removing: RNAC
+Removing: AUR
+Removing: SNTG
+Removing: BMR
+Removing: EOSE
+Removing: AURA
+Removing: BHIL
+Removing: DOGZ
+Removing: EPIX
+Removing: TIL
+Removing: EUDA
+Removing: CRMD
+Removing: PRTG
+Removing: DSY
+Removing: ORKT
+Removing: BCG
+Removing: BMEA
+Removing: NKTX
+Removing: SKYE
+Removing: AKYA
+Removing: CASI
+Removing: ADN
+Removing: RCAT
+Removing: IGMS
+Removing: BTDR
+Removing: CDTG
+Removing: CBUS
+Removing: GV
+Removing: ALT
+Removing: GSUN
+Removing: TCX
+Removing: ENVX
+Removing: PRME
+Removing: ACRV
+Removing: WISA
+Removing: NCPL
+Removing: MRIN
+Removing: ZNTL
+Removing: BIVI
+
+-----------------------------------------------------------
+   Ticker  EPSGrowth  DivYield        P/E        FoS
+28   GTEC  88.900000      0.00   8.133333  10.930328
+14   COMM  24.348253      0.00   4.626168   5.263158
+20   MIND   8.984375      0.00   2.695312   3.333333
+1     AVO  88.900000      0.00  56.478260   1.574057
+12   CVGW  10.762514      3.01  16.036146   0.858842
+0    SIRI  33.035714      3.89  85.562500   0.431564
+8    AMSC  16.269244      0.00  46.367344   0.350877
+5    MTRX   2.117146      0.00  10.755102   0.196850
+10   LFVN   0.000000      1.88  11.987500   0.156830
