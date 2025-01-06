@@ -91,7 +91,24 @@ df = pd.DataFrame(data=d)
 plusFosDf = df[df['FoS'] > 0.05]
 f.write(plusFosDf.sort_values(by=['FoS'],ascending=False).to_string())
 
+#Valuation Method - 2 TensorFlow
+'''
+What will our input variables be - ticker + five crucial data points of a stock X(past data)
+Y - Whether or not it was a good by - how will we quantify this? I guess we don't have to do a yes/no data point here we can just put the % change over the past year
+would be smart to take into account how it paired against the industry average but this would complicate things/ we could do a model for one specific industry though
+but maybe last year was just a bad year, so how will we know if the model predicts everything poorly based on biased year - ideally we'd do multiple years, but we will start with 1. 
+Ticker, PE, PB, DE, FCF, PEG -> 1yr % change
+
+'''
+
 #Next step set threshold and determine/ buy no buy
 
 #Look at Stocks already purchased and determine buy/ no buy/ sell
 f.close()
+
+
+#Next steps - find better way to pull web data for stocks that's more consistent than yfinance
+# - AI valuation
+# - Tableau presentation
+# - Clean up this whole thing so it's more organized
+# - finish the wallet functionality and buy sell functionality once the valuation's are good
